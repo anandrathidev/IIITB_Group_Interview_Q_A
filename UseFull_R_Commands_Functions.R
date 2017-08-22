@@ -30,8 +30,8 @@ boxplot() Produces a boxplot
 # @Author: Anand Rathi 
 # @Details: Transpose a data frame 
 #           that is rows becomes columns and colnames get replaced by rownames 
-# @Input  Data Frame 
-# @Output Data Frame 
+# @Input:  Data Frame 
+# @Output: Data Frame 
 tDF <- function( x ) {
   x.T <- t(x[,2:ncol(x)])
   colnames(x.T) <- x[,1] 
@@ -40,8 +40,8 @@ tDF <- function( x ) {
 
 # @Author: Anand Rathi 
 # @Details: from List of List to data frame 
-# @Input  Data Frame 
-# @Output Data Frame 
+# @Input:  List of List 
+# @Output: Data Frame 
 # 
 listoflist2df <- function( x ) {
   return(do.call(rbind,lapply(x,data.frame)))
