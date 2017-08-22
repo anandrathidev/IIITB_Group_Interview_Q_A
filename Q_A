@@ -1,0 +1,24 @@
+
+Q.1 did you use Dimensionality reduction technique , what , how  [ PCA , was already discussed]
+A. cor matrix, 
+
+Q.2 Advantage of Lasso Over Ridge [ so i figured out aftyer some google Lasso can double as Dim redux ]
+
+Q.3 In your project, Did you create additional feature, if so how and why
+
+Q.4 SVM regularization .. fully grilled here, with ref to R implementation 
+
+Q.5 logistic regression .. explain all formulas and meanings 
+
+1] odds ration
+2] log of odds ration
+3] loss function etc 
+
+
+Q.6 in NN, how to avoid vanishing gradient 
+
+Q.6.2 in RNN, how to avoid exploding gradient 
+use LTSM memory gates 
+
+Q.7 How did i decided K in my K-means clustering [ scatter plot etc ]
+
