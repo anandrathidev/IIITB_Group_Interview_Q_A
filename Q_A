@@ -22,3 +22,26 @@ use LTSM memory gates
 
 Q.7 How did i decided K in my K-means clustering [ scatter plot etc ]
 
+Q.8 Liner regression formula for y = mx +c 
+
+1] 
+y = mx + c
+m = (n*sum(XiYi) - sum(Xi)*sum(Yi)) /  (n * sum(Xi^2) -  sum(Xi) ^2 )
+c =  ( sum(Yi) * sum(Xi^2) - sum(Xi)* sum(Xi * Yi) ) / (n * sum(Xi^2) -  sum(Xi) ^2 )
+
+2] β=(X'X)^−1 X'Y
+
+3] Gradient Descent 
+use GD over analytical solution if:
+
+you are considering changes in the model, generalizations, adding some more complex terms/regularization/modifications
+you need a generic method because you do not know much about the future of the code and the model (you are only one of the developers)
+analytical solution is more expensive computationaly, and you need efficiency
+analytical solution requires more memory, which you do not have
+analytical solution is hard to implement and you need easy, simple code
+
+Risk of meeting different local optimum
+The linear regression cost function is always a convex function - always has a single minimum
+Bowl shaped
+One global optima
+So gradient descent will always converge to global optima
