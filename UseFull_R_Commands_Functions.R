@@ -26,3 +26,23 @@ sum() # Add up all values in a vector
 quantile() # Find the position of a quantile in a dataset
 barplot() #Produces a bar graph
 boxplot() Produces a boxplot
+
+# @Author: Anand Rathi 
+# @Details: Transpose a data frame 
+#           that is rows becomes columns and colnames get replaced by rownames 
+# @Input  Data Frame 
+# @Output Data Frame 
+tDF <- function( x ) {
+  x.T <- t(x[,2:ncol(x)])
+  colnames(x.T) <- x[,1] 
+  return(as.data.frame(x.T))
+}
+
+# @Author: Anand Rathi 
+# @Details: from List of List to data frame 
+# @Input  Data Frame 
+# @Output Data Frame 
+# 
+listoflist2df <- function( x ) {
+  return(do.call(rbind,lapply(x,data.frame)))
+}
