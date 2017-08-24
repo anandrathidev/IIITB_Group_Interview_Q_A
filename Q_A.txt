@@ -50,5 +50,13 @@ So gradient descent will always converge to global optima
 Q.9 How do we compare between diffrent models ? which is best model for a given probem ?
 
 Q.10 Whats the problem if we set all weights to ZERO in NN ?
+see this answer 
+https://stats.stackexchange.com/questions/27112/danger-of-setting-all-initial-weights-to-zero-in-backpropagation
 
+Im pretty sure that backpropagation involves adding to the existing weights, not multiplying. The amount that you add is specified by the delta rule. Note that wij doesn't appear on the right-hand-side of the equation.
+
+My understanding is that there are at least two good reasons not to set the initial weights to zero:
+
+First, neural networks tend to get stuck in local minima, so it's a good idea to give them many different starting values. You can't do that if they all start at zero.
+Second, if the neurons start with the same weights, then all the neurons will follow the same gradient, and will always end up doing the same thing as one another.
 
