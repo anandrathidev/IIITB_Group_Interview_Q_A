@@ -45,3 +45,10 @@ The linear regression cost function is always a convex function - always has a s
 Bowl shaped
 One global optima
 So gradient descent will always converge to global optima
+
+
+Q.9 How do we compare between diffrent models ? which is best model for a given probem ?
+
+Q.10 Whats the problem if we set all weights to ZERO in NN ?
+
+
