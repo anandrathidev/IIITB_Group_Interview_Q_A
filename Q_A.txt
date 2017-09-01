@@ -90,7 +90,23 @@ This concludes our discussion of the most common types of neurons and their acti
 
 Q11] WIPRO : In R , there is a DF with 13 cols such as JAN, FEB ., MAR, APR .. DEC & CUSTID
 Now each col contains Transaction Number 
+Ans: 
 for each cust id find highest Month 
+custid <-  c(1,2,3,4,5,6,7,8,9,10,11,12 )
+jan <-  c(1,2,3,4,5,6,7,8,9,10,11,120 )
+feb  <-  c(2,3,4,5,6,7,8,9,10,11,120,1 )
+mar <-  c(3,4,5,6,7,8,9,10,11,120,1,2 )
+apr <-  c(4,5,6,7,8,9,10,11,120,1,2,3 )
+may <-  c(100,2,3,4,5,6,7,8,9,10,11,12 )
+jun <-  c(1,200,3,4,5,6,7,8,9,10,11,12 )
+jul <-  c(1,2,300,4,5,6,7,8,9,10,11,12 )
+aug  <-  c(1,2,3,400,5,6,7,8,9,10,11,12 )
+sep <-  c(1,2,3,4,500,6,7,8,9,10,11,12 )
+oct <-  c(1,2,3,4,5,600,7,8,9,10,11,12 )
+nov<-  c(1,2,3,4,5,6,700,8,9,10,11,12 )
+dec <-  c(1,2,3,4,5,6,7,800,9,10,11,12 )
+trdf <- data.frame( custid=custid , jan, feb , mar, apr, may , jun, jul, aug, sep, oct, nov, dec)
+colnames(trdf)[max.col(trdf,ties.method="first")]
 
 Q12] WIPRO :  Losgictic regresion , 1000 independent variables , which variable is most important in logistivc regression 
 
