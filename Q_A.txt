@@ -113,3 +113,9 @@ Q12] WIPRO :  Losgictic regresion , 1000 independent variables , which variable 
 Q13] WIPRO : what are RF tuning parameters , 
 how do u select which is best parameter 
 
+ Q14] BRIDGEi2i , WALMART , PHARMEASY : What are the assumptions of Linear Regression ? Explain 3 with examples.
+ 
+ Q15] WALMART : What are the evaluation statistics for models . KS Stats , C stats etc.
+ 
+ Q16] BRIDGEi2i : What is the difference between Bagging and Boosting . Asked general difference , not mathematical one .
+
