@@ -1,0 +1,8 @@
+Mphasis Interview Questions:
+
+1] diff Spark submit local vs cluster 
+2] cassandra database vs HBASE diff 
+3] how cassandra distributes data in cluster
+4] what is ARVO & ORC , which is better & why
+5] how did I implement logistic regression in spark etc 
+6] how to get top 10 ordered data from spark
