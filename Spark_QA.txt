@@ -6,3 +6,7 @@ Mphasis Interview Questions:
 4] what is ARVO & ORC , which is better & why
 5] how did I implement logistic regression in spark etc 
 6] how to get top 10 ordered data from spark
+
+
+spark performance tuning
+1]  spark.sql.shuffle.partitions 
